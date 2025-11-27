@@ -8,6 +8,9 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
+plugins:
+  - jekyll-feed
+
 kramdown:
   math_engine: mathjax
 
