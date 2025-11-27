@@ -1,8 +1,8 @@
 title: How Is Model Formed?
 tagline: truly sorry for your loss
 author: downscore
-url: "https://downscore.github.io/blog"
-baseurl: "/blog"
+url: "https://downscore.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
