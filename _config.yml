@@ -1,0 +1,29 @@
+title: How Is Model Formed?
+tagline: truly sorry for your loss
+author: downscore
+url: "https://downscore.github.io/blog"
+baseurl: "/blog"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
