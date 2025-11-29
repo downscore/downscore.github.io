@@ -8,7 +8,7 @@ date: 2025-11-26
 
 It's customary for articles about keyboards to begin with some information, usually incorrect, about historical typewriter layouts. Did you know that Qwerty actually began life as a meme layout? "QWERTY" was roughly the 19th-century equivalent of "LMAO". Imagine making the "LMAO layout" today, and you'll get the idea.
 
-This article is about the biggest problems with computer keyboards, and my attempts to do something about them. It's very roughly with the biggest problems coming first, and less consequential problems at the end. It doesn't deal at all with ergonomics and RSI, which are topics that deserve a much better treatment than they usually get.
+This article is about the biggest problems with computer keyboards, and my attempts to do something about them. It's very roughly ordered with the biggest problems coming first, and less consequential problems at the end. It doesn't deal at all with ergonomics and RSI, which are topics that deserve a much better treatment than they usually get.
 
 I'm using a fancy keyboard (i.e. split ergonomic), but most of this can be applied to any keyboard. For example, if you're using a built-in MacBook keyboard, you can probably implement most of the features described here using [Kanata](https://github.com/jtroo/kanata). Having said that, using a fancy keyboard does make fixing problems a lot easier, especially the single biggest problem of all:
 
