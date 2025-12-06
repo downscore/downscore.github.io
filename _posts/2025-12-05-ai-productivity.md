@@ -30,6 +30,7 @@ AI takes care of on-ramps. There's no friction to trying new things anymore. I t
 If I want to try a new language now, I don't write "Hello World" or find the rustlings equivalent. I write a clone of [Subspace](https://store.steampowered.com/app/352700/Subspace_Continuum/). It takes about 10 minutes to do.
 
 ![Subspace clone hello world](/assets/images/subspace-hello-world.gif)
+
 Pictured above: "Hello, World" in Go.
 
 This all has a fractal effect. It removes the friction for getting started at every level:
@@ -76,6 +77,7 @@ This is where planning mode becomes incredibly powerful. You can review the whol
 In this case, I didn't really have any strong opinions (I guess 600px is a good threshold for making friends?), or frankly any familiarity with the code, so I just went ahead and implemented the plan as-is. It took a few minutes to do the whole thing, and this is the result:
 
 ![Subspace enemy AI](/assets/images/subspace-enemy-ai.gif)
+
 Pictured: "Hello, World" in Go, except now spaceships team up to shoot you.
 
 In my experience on more serious work, after you give some good feedback, Claude's second attempt at a plan is almost always way better than its first. If you didn't use planning mode and just tried to one-shot a bugfix or new feature, you'd be just YOLO-ing the first plan and trying to clean up the mess later. I wouldn't be surprised if almost everybody is effectively doing this and therefore significantly underestimating the capabilities of current models.
