@@ -90,6 +90,24 @@ h1, h2, h3, h4 {
   line-height: 1.3;
 }
 
+.heading-anchor {
+  margin-left: 0.5rem;
+  color: var(--text-light);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor {
+  opacity: 1;
+}
+
+.heading-anchor:hover {
+  color: var(--accent);
+}
+
 h1 {
   font-size: 2rem;
   margin: 1.5rem 0 1rem;
