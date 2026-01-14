@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=2">
 
   <!-- MathJax for equations -->
   <script>
@@ -45,5 +45,15 @@
   <footer>
     <p>Except where noted otherwise, <a href="https://xkcd.com/3126/">content on this blog is not AI-generated</a> and represents my faithful chain of thought. Content may include typos, dangling modifiers, and other things that have become rare in the age of AI.</p>
   </footer>
+  <script>
+    // Add anchor links to headings
+    document.querySelectorAll('h2[id], h3[id], h4[id]').forEach(heading => {
+      const link = document.createElement('a');
+      link.href = '#' + heading.id;
+      link.className = 'heading-anchor';
+      link.textContent = '#';
+      heading.appendChild(link);
+    });
+  </script>
 </body>
 </html>
