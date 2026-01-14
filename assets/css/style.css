@@ -1,6 +1,6 @@
 :root {
-  --text: #d4cfc4;
-  --text-light: #a89f91;
+  --text: #e0dbd0;
+  --text-light: #b5ab9c;
   --bg: #1c1a17;
   --accent: #c9a66b;
   --code-bg: #2a2722;
@@ -15,6 +15,7 @@
 
 body {
   font-family: "Libre Baskerville", Baskerville, Georgia, serif;
+  font-size: 18px;
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
@@ -26,7 +27,7 @@ body {
 /* Navigation */
 body > header {
   margin: -2rem -1rem 3rem -1rem;
-  padding: 1.5rem 1rem;
+  padding: 0.75rem 1rem;
   background: #141210;
   border-bottom: 1px solid var(--border);
 }
@@ -40,6 +41,18 @@ nav {
 }
 
 .site-branding {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.site-logo img {
+  height: 100px;
+  width: auto;
+}
+
+.site-title-group {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;

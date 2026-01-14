@@ -26,8 +26,11 @@
   <header>
     <nav>
       <div class="site-branding">
-        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-        <span class="tagline">{{ site.tagline }}</span>
+        <a href="{{ '/' | relative_url }}" class="site-logo"><img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo"></a>
+        <div class="site-title-group">
+          <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+          <span class="tagline">{{ site.tagline }}</span>
+        </div>
       </div>
       <div class="nav-links">
         <a href="{{ '/' | relative_url }}">Home</a>
